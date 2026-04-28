@@ -1,0 +1,58 @@
+{
+  "name": "dxos-plugin-youtube",
+  "private": true,
+  "version": "0.1.0",
+  "description": "YouTube channel subscription and video feed plugin for DXOS Composer — standalone community distribution of the @dxos/plugin-youtube package.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "imports": {
+    "#blueprints": "./src/blueprints/index.ts",
+    "#capabilities": "./src/capabilities/index.ts",
+    "#containers": "./src/containers/index.ts",
+    "#meta": "./src/meta.ts",
+    "#operations": "./src/operations/index.ts",
+    "#types": "./src/types/index.ts"
+  },
+  "//": "@dxos/* deps track the `main` dist-tag on npm so the plugin runs against the same Composer host code that edge-main serves. Bump SHAs in lockstep when landing a host-side change.",
+  "dependencies": {
+    "@dxos/app-framework": "0.8.4-main.fcfe5033a5",
+    "@dxos/app-toolkit": "0.8.4-main.fcfe5033a5",
+    "@dxos/blueprints": "0.8.4-main.fcfe5033a5",
+    "@dxos/client": "0.8.4-main.fcfe5033a5",
+    "@dxos/echo": "0.8.4-main.fcfe5033a5",
+    "@dxos/echo-atom": "0.8.4-main.fcfe5033a5",
+    "@dxos/functions": "0.8.4-main.fcfe5033a5",
+    "@dxos/invariant": "0.8.4-main.fcfe5033a5",
+    "@dxos/log": "0.8.4-main.fcfe5033a5",
+    "@dxos/operation": "0.8.4-main.fcfe5033a5",
+    "@dxos/plugin-attention": "0.8.4-main.fcfe5033a5",
+    "@dxos/plugin-automation": "0.8.4-main.fcfe5033a5",
+    "@dxos/plugin-client": "0.8.4-main.fcfe5033a5",
+    "@dxos/plugin-graph": "0.8.4-main.fcfe5033a5",
+    "@dxos/plugin-space": "0.8.4-main.fcfe5033a5",
+    "@dxos/react-client": "0.8.4-main.fcfe5033a5",
+    "@dxos/react-ui": "0.8.4-main.fcfe5033a5",
+    "@dxos/react-ui-attention": "0.8.4-main.fcfe5033a5",
+    "@dxos/schema": "0.8.4-main.fcfe5033a5",
+    "@dxos/types": "0.8.4-main.fcfe5033a5",
+    "@dxos/util": "0.8.4-main.fcfe5033a5",
+    "@effect-atom/atom-react": "^0.5.0",
+    "@effect/platform": "^0.69.0",
+    "effect": "^3.19.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "youtube-caption-extractor": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "typescript": "~5.9.0",
+    "vite": "^8.0.0",
+    "vite-plugin-wasm": "^3.6.0"
+  }
+}

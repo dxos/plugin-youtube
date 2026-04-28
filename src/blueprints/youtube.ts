@@ -2,6 +2,7 @@
 // Copyright 2024 DXOS.org
 //
 
+import { AppCapabilities } from '@dxos/app-toolkit';
 import { Blueprint, Template } from '@dxos/blueprints';
 import { trim } from '@dxos/util';
 
@@ -43,7 +44,7 @@ const make = () =>
     }),
   });
 
-const blueprint: Blueprint.Definition = {
+const blueprint: AppCapabilities.BlueprintDefinition = {
   key: BLUEPRINT_KEY,
   make,
 };

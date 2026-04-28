@@ -1,5 +1,8 @@
 # dxos-plugin-youtube
 
-Surface plugin for YouTube channel subscriptions and video feeds in DXOS Composer.
+- Syncs YouTube channels into composer Feeds.
+- Extracts transcripts from videos.
 
-Standalone community distribution of the `@dxos/plugin-youtube` package.
+## Externally accessed resources
+
+- Calls out to the [YouTube API](https://developers.google.com/youtube/v3)

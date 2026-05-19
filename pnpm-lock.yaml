@@ -14,10 +14,10 @@ importers:
     dependencies:
       '@dxos/app-framework':
         specifier: 0.8.4-main.fcfe5033a5
-        version: 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
+        version: 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
       '@dxos/app-toolkit':
         specifier: 0.8.4-main.fcfe5033a5
-        version: 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+        version: 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/blueprints':
         specifier: 0.8.4-main.fcfe5033a5
         version: 0.8.4-main.fcfe5033a5(7a7bfb0aa9dcd284d0b8c760de0512e7)
@@ -44,19 +44,19 @@ importers:
         version: 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/plugin-attention':
         specifier: 0.8.4-main.fcfe5033a5
-        version: 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
+        version: 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
       '@dxos/plugin-automation':
         specifier: 0.8.4-main.fcfe5033a5
-        version: 0.8.4-main.fcfe5033a5(4516bf3e9aa99ef7be0b7e21375b07c7)
+        version: 0.8.4-main.fcfe5033a5(fcb6d3a3d68fbe541897e2321625b86b)
       '@dxos/plugin-client':
         specifier: 0.8.4-main.fcfe5033a5
-        version: 0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)
+        version: 0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)
       '@dxos/plugin-graph':
         specifier: 0.8.4-main.fcfe5033a5
-        version: 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
+        version: 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
       '@dxos/plugin-space':
         specifier: 0.8.4-main.fcfe5033a5
-        version: 0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)
+        version: 0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)
       '@dxos/react-client':
         specifier: 0.8.4-main.fcfe5033a5
         version: 0.8.4-main.fcfe5033a5(bdae3ac4d759df8c2ba6a41bac8d50e1)
@@ -76,7 +76,7 @@ importers:
         specifier: 0.8.4-main.fcfe5033a5
         version: 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@effect-atom/atom-react':
-        specifier: 0.5.0
+        specifier: ^0.5.0
         version: 0.5.0(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@effect/platform':
         specifier: 0.94.4
@@ -102,16 +102,16 @@ importers:
         version: 19.2.3(@types/react@19.2.14)
       '@vitejs/plugin-react':
         specifier: ^6.0.0
-        version: 6.0.1(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3))
+        version: 6.0.1(vite@8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3))
       typescript:
         specifier: ~5.9.0
         version: 5.9.3
       vite:
         specifier: ^8.0.0
-        version: 8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)
+        version: 8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)
       vite-plugin-wasm:
         specifier: ^3.6.0
-        version: 3.6.0(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3))
+        version: 3.6.0(vite@8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3))
 
 packages:
 
@@ -165,6 +165,9 @@ packages:
 
   '@automerge/automerge@3.2.3':
     resolution: {integrity: sha512-pQJWGGFWZuVC4p4e0ZtRkpYvgGHf8VeT4Vt+LqSdSEA95xHJB/CgyCDW9nC2bugBATL/Qxm8Won1mEYcx7YPEQ==}
+
+  '@automerge/automerge@3.2.6':
+    resolution: {integrity: sha512-9/GXXfYYWNVGpnbRrGQzTNU4fWZ3XaEMeEg0OrpK4pvlQSpkmUBoirEb/4TMK6BwMysZGV5Yeneq3wwc7RNGfg==}
 
   '@babel/code-frame@7.29.0':
     resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
@@ -1176,8 +1179,20 @@ packages:
     cpu: [ppc64]
     os: [aix]
 
+  '@esbuild/aix-ppc64@0.28.0':
+    resolution: {integrity: sha512-lhRUCeuOyJQURhTxl4WkpFTjIsbDayJHih5kZC1giwE+MhIzAb7mEsQMqMf18rHLsrb5qI1tafG20mLxEWcWlA==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+
   '@esbuild/android-arm64@0.25.11':
     resolution: {integrity: sha512-9slpyFBc4FPPz48+f6jyiXOx/Y4v34TUeDDXJpZqAWQn/08lKGeD8aDp9TMn9jDz2CiEuHwfhRmGBvpnd/PWIQ==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm64@0.28.0':
+    resolution: {integrity: sha512-+WzIXQOSaGs33tLEgYPYe/yQHf0WTU0X42Jca3y8NWMbUVhp7rUnw+vAsRC/QiDrdD31IszMrZy+qwPOPjd+rw==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [android]
@@ -1188,8 +1203,20 @@ packages:
     cpu: [arm]
     os: [android]
 
+  '@esbuild/android-arm@0.28.0':
+    resolution: {integrity: sha512-wqh0ByljabXLKHeWXYLqoJ5jKC4XBaw6Hk08OfMrCRd2nP2ZQ5eleDZC41XHyCNgktBGYMbqnrJKq/K/lzPMSQ==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [android]
+
   '@esbuild/android-x64@0.25.11':
     resolution: {integrity: sha512-Sgiab4xBjPU1QoPEIqS3Xx+R2lezu0LKIEcYe6pftr56PqPygbB7+szVnzoShbx64MUupqoE0KyRlN7gezbl8g==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/android-x64@0.28.0':
+    resolution: {integrity: sha512-+VJggoaKhk2VNNqVL7f6S189UzShHC/mR9EE8rDdSkdpN0KflSwWY/gWjDrNxxisg8Fp1ZCD9jLMo4m0OUfeUA==}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [android]
@@ -1200,8 +1227,20 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
+  '@esbuild/darwin-arm64@0.28.0':
+    resolution: {integrity: sha512-0T+A9WZm+bZ84nZBtk1ckYsOvyA3x7e2Acj1KdVfV4/2tdG4fzUp91YHx+GArWLtwqp77pBXVCPn2We7Letr0Q==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [darwin]
+
   '@esbuild/darwin-x64@0.25.11':
     resolution: {integrity: sha512-+hfp3yfBalNEpTGp9loYgbknjR695HkqtY3d3/JjSRUyPg/xd6q+mQqIb5qdywnDxRZykIHs3axEqU6l1+oWEQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.28.0':
+    resolution: {integrity: sha512-fyzLm/DLDl/84OCfp2f/XQ4flmORsjU7VKt8HLjvIXChJoFFOIL6pLJPH4Yhd1n1gGFF9mPwtlN5Wf82DZs+LQ==}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [darwin]
@@ -1212,8 +1251,20 @@ packages:
     cpu: [arm64]
     os: [freebsd]
 
+  '@esbuild/freebsd-arm64@0.28.0':
+    resolution: {integrity: sha512-l9GeW5UZBT9k9brBYI+0WDffcRxgHQD8ShN2Ur4xWq/NFzUKm3k5lsH4PdaRgb2w7mI9u61nr2gI2mLI27Nh3Q==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [freebsd]
+
   '@esbuild/freebsd-x64@0.25.11':
     resolution: {integrity: sha512-Dyq+5oscTJvMaYPvW3x3FLpi2+gSZTCE/1ffdwuM6G1ARang/mb3jvjxs0mw6n3Lsw84ocfo9CrNMqc5lTfGOw==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.28.0':
+    resolution: {integrity: sha512-BXoQai/A0wPO6Es3yFJ7APCiKGc1tdAEOgeTNy3SsB491S3aHn4S4r3e976eUnPdU+NbdtmBuLncYir2tMU9Nw==}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [freebsd]
@@ -1224,8 +1275,20 @@ packages:
     cpu: [arm64]
     os: [linux]
 
+  '@esbuild/linux-arm64@0.28.0':
+    resolution: {integrity: sha512-RVyzfb3FWsGA55n6WY0MEIEPURL1FcbhFE6BffZEMEekfCzCIMtB5yyDcFnVbTnwk+CLAgTujmV/Lgvih56W+A==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [linux]
+
   '@esbuild/linux-arm@0.25.11':
     resolution: {integrity: sha512-TBMv6B4kCfrGJ8cUPo7vd6NECZH/8hPpBHHlYI3qzoYFvWu2AdTvZNuU/7hsbKWqu/COU7NIK12dHAAqBLLXgw==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [linux]
+
+  '@esbuild/linux-arm@0.28.0':
+    resolution: {integrity: sha512-CjaaREJagqJp7iTaNQjjidaNbCKYcd4IDkzbwwxtSvjI7NZm79qiHc8HqciMddQ6CKvJT6aBd8lO9kN/ZudLlw==}
     engines: {node: '>=18'}
     cpu: [arm]
     os: [linux]
@@ -1236,8 +1299,20 @@ packages:
     cpu: [ia32]
     os: [linux]
 
+  '@esbuild/linux-ia32@0.28.0':
+    resolution: {integrity: sha512-KBnSTt1kxl9x70q+ydterVdl+Cn0H18ngRMRCEQfrbqdUuntQQ0LoMZv47uB97NljZFzY6HcfqEZ2SAyIUTQBQ==}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [linux]
+
   '@esbuild/linux-loong64@0.25.11':
     resolution: {integrity: sha512-DIGXL2+gvDaXlaq8xruNXUJdT5tF+SBbJQKbWy/0J7OhU8gOHOzKmGIlfTTl6nHaCOoipxQbuJi7O++ldrxgMw==}
+    engines: {node: '>=18'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@esbuild/linux-loong64@0.28.0':
+    resolution: {integrity: sha512-zpSlUce1mnxzgBADvxKXX5sl8aYQHo2ezvMNI8I0lbblJtp8V4odlm3Yzlj7gPyt3T8ReksE6bK+pT3WD+aJRg==}
     engines: {node: '>=18'}
     cpu: [loong64]
     os: [linux]
@@ -1248,8 +1323,20 @@ packages:
     cpu: [mips64el]
     os: [linux]
 
+  '@esbuild/linux-mips64el@0.28.0':
+    resolution: {integrity: sha512-2jIfP6mmjkdmeTlsX/9vmdmhBmKADrWqN7zcdtHIeNSCH1SqIoNI63cYsjQR8J+wGa4Y5izRcSHSm8K3QWmk3w==}
+    engines: {node: '>=18'}
+    cpu: [mips64el]
+    os: [linux]
+
   '@esbuild/linux-ppc64@0.25.11':
     resolution: {integrity: sha512-nbLFgsQQEsBa8XSgSTSlrnBSrpoWh7ioFDUmwo158gIm5NNP+17IYmNWzaIzWmgCxq56vfr34xGkOcZ7jX6CPw==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@esbuild/linux-ppc64@0.28.0':
+    resolution: {integrity: sha512-bc0FE9wWeC0WBm49IQMPSPILRocGTQt3j5KPCA8os6VprfuJ7KD+5PzESSrJ6GmPIPJK965ZJHTUlSA6GNYEhg==}
     engines: {node: '>=18'}
     cpu: [ppc64]
     os: [linux]
@@ -1260,8 +1347,20 @@ packages:
     cpu: [riscv64]
     os: [linux]
 
+  '@esbuild/linux-riscv64@0.28.0':
+    resolution: {integrity: sha512-SQPZOwoTTT/HXFXQJG/vBX8sOFagGqvZyXcgLA3NhIqcBv1BJU1d46c0rGcrij2B56Z2rNiSLaZOYW5cUk7yLQ==}
+    engines: {node: '>=18'}
+    cpu: [riscv64]
+    os: [linux]
+
   '@esbuild/linux-s390x@0.25.11':
     resolution: {integrity: sha512-HjLqVgSSYnVXRisyfmzsH6mXqyvj0SA7pG5g+9W7ESgwA70AXYNpfKBqh1KbTxmQVaYxpzA/SvlB9oclGPbApw==}
+    engines: {node: '>=18'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@esbuild/linux-s390x@0.28.0':
+    resolution: {integrity: sha512-SCfR0HN8CEEjnYnySJTd2cw0k9OHB/YFzt5zgJEwa+wL/T/raGWYMBqwDNAC6dqFKmJYZoQBRfHjgwLHGSrn3Q==}
     engines: {node: '>=18'}
     cpu: [s390x]
     os: [linux]
@@ -1272,8 +1371,20 @@ packages:
     cpu: [x64]
     os: [linux]
 
+  '@esbuild/linux-x64@0.28.0':
+    resolution: {integrity: sha512-us0dSb9iFxIi8srnpl931Nvs65it/Jd2a2K3qs7fz2WfGPHqzfzZTfec7oxZJRNPXPnNYZtanmRc4AL/JwVzHQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [linux]
+
   '@esbuild/netbsd-arm64@0.25.11':
     resolution: {integrity: sha512-hr9Oxj1Fa4r04dNpWr3P8QKVVsjQhqrMSUzZzf+LZcYjZNqhA3IAfPQdEh1FLVUJSiu6sgAwp3OmwBfbFgG2Xg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [netbsd]
+
+  '@esbuild/netbsd-arm64@0.28.0':
+    resolution: {integrity: sha512-CR/RYotgtCKwtftMwJlUU7xCVNg3lMYZ0RzTmAHSfLCXw3NtZtNpswLEj/Kkf6kEL3Gw+BpOekRX0BYCtklhUw==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [netbsd]
@@ -1284,8 +1395,20 @@ packages:
     cpu: [x64]
     os: [netbsd]
 
+  '@esbuild/netbsd-x64@0.28.0':
+    resolution: {integrity: sha512-nU1yhmYutL+fQ71Kxnhg8uEOdC0pwEW9entHykTgEbna2pw2dkbFSMeqjjyHZoCmt8SBkOSvV+yNmm94aUrrqw==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [netbsd]
+
   '@esbuild/openbsd-arm64@0.25.11':
     resolution: {integrity: sha512-Qq6YHhayieor3DxFOoYM1q0q1uMFYb7cSpLD2qzDSvK1NAvqFi8Xgivv0cFC6J+hWVw2teCYltyy9/m/14ryHg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openbsd]
+
+  '@esbuild/openbsd-arm64@0.28.0':
+    resolution: {integrity: sha512-cXb5vApOsRsxsEl4mcZ1XY3D4DzcoMxR/nnc4IyqYs0rTI8ZKmW6kyyg+11Z8yvgMfAEldKzP7AdP64HnSC/6g==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [openbsd]
@@ -1296,8 +1419,20 @@ packages:
     cpu: [x64]
     os: [openbsd]
 
+  '@esbuild/openbsd-x64@0.28.0':
+    resolution: {integrity: sha512-8wZM2qqtv9UP3mzy7HiGYNH/zjTA355mpeuA+859TyR+e+Tc08IHYpLJuMsfpDJwoLo1ikIJI8jC3GFjnRClzA==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [openbsd]
+
   '@esbuild/openharmony-arm64@0.25.11':
     resolution: {integrity: sha512-rOREuNIQgaiR+9QuNkbkxubbp8MSO9rONmwP5nKncnWJ9v5jQ4JxFnLu4zDSRPf3x4u+2VN4pM4RdyIzDty/wQ==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openharmony]
+
+  '@esbuild/openharmony-arm64@0.28.0':
+    resolution: {integrity: sha512-FLGfyizszcef5C3YtoyQDACyg95+dndv79i2EekILBofh5wpCa1KuBqOWKrEHZg3zrL3t5ouE5jgr94vA+Wb2w==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [openharmony]
@@ -1308,8 +1443,20 @@ packages:
     cpu: [x64]
     os: [sunos]
 
+  '@esbuild/sunos-x64@0.28.0':
+    resolution: {integrity: sha512-1ZgjUoEdHZZl/YlV76TSCz9Hqj9h9YmMGAgAPYd+q4SicWNX3G5GCyx9uhQWSLcbvPW8Ni7lj4gDa1T40akdlw==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [sunos]
+
   '@esbuild/win32-arm64@0.25.11':
     resolution: {integrity: sha512-3XxECOWJq1qMZ3MN8srCJ/QfoLpL+VaxD/WfNRm1O3B4+AZ/BnLVgFbUV3eiRYDMXetciH16dwPbbHqwe1uU0Q==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@esbuild/win32-arm64@0.28.0':
+    resolution: {integrity: sha512-Q9StnDmQ/enxnpxCCLSg0oo4+34B9TdXpuyPeTedN/6+iXBJ4J+zwfQI28u/Jl40nOYAxGoNi7mFP40RUtkmUA==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [win32]
@@ -1320,8 +1467,20 @@ packages:
     cpu: [ia32]
     os: [win32]
 
+  '@esbuild/win32-ia32@0.28.0':
+    resolution: {integrity: sha512-zF3ag/gfiCe6U2iczcRzSYJKH1DCI+ByzSENHlM2FcDbEeo5Zd2C86Aq0tKUYAJJ1obRP84ymxIAksZUcdztHA==}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [win32]
+
   '@esbuild/win32-x64@0.25.11':
     resolution: {integrity: sha512-D7Hpz6A2L4hzsRpPaCYkQnGOotdUpDzSGRIv9I+1ITdHROSFUWW95ZPZWQmGka1Fg7W3zFJowyn9WGwMJ0+KPA==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [win32]
+
+  '@esbuild/win32-x64@0.28.0':
+    resolution: {integrity: sha512-pEl1bO9mfAmIC+tW5btTmrKaujg3zGtUmWNdCw/xs70FBjwAL3o9OEKNHvNmnyylD6ubxUERiEhdsL0xBQ9efw==}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
@@ -2529,8 +2688,8 @@ packages:
   '@radix-ui/react-use-size@1.1.0':
     resolution: {integrity: sha512-XW3/vWuIXHa+2Uwcc2ABSfcCledmXhhQPlGbfcRXbiUQI5Icjcg19BGCZVKKInYbvUCut/ufbbLLPFC5cbb1hw==}
     peerDependencies:
-      '@types/react': '*'
-      react: ^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+      '@types/react': ~19.2.7
+      react: ~19.2.3
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -3526,6 +3685,11 @@ packages:
 
   esbuild@0.25.11:
     resolution: {integrity: sha512-KohQwyzrKTQmhXDW1PjCv3Tyspn9n5GcY2RTDqeORIdIJY8yKIF7sTSopFmn/wpMPW4rdPXI0UE5LJLuq3bx0Q==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  esbuild@0.28.0:
+    resolution: {integrity: sha512-sNR9MHpXSUV/XB4zmsFKN+QgVG82Cc7+/aaxJ8Adi8hyOac+EXptIp45QBPaVyX3N70664wRbTcLTOemCAnyqw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -5302,10 +5466,12 @@ packages:
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   vary@1.1.2:
@@ -5508,7 +5674,7 @@ snapshots:
 
   '@atlaskit/pragmatic-drag-and-drop-auto-scroll@2.1.5':
     dependencies:
-      '@atlaskit/pragmatic-drag-and-drop': 1.7.7
+      '@atlaskit/pragmatic-drag-and-drop': 1.8.1
       '@babel/runtime': 7.29.2
 
   '@atlaskit/pragmatic-drag-and-drop-hitbox@1.1.0':
@@ -5518,7 +5684,7 @@ snapshots:
 
   '@atlaskit/pragmatic-drag-and-drop-react-drop-indicator@3.2.10(@types/react@19.2.14)(react@19.2.5)':
     dependencies:
-      '@atlaskit/pragmatic-drag-and-drop': 1.7.7
+      '@atlaskit/pragmatic-drag-and-drop': 1.8.1
       '@atlaskit/pragmatic-drag-and-drop-hitbox': 1.1.0
       '@atlaskit/tokens': 9.1.2(@types/react@19.2.14)(react@19.2.5)
       '@babel/runtime': 7.29.2
@@ -5555,7 +5721,7 @@ snapshots:
 
   '@automerge/automerge-repo@2.5.1':
     dependencies:
-      '@automerge/automerge': 3.2.3
+      '@automerge/automerge': 3.2.6
       bs58check: 3.0.1
       cbor-x: 1.6.4
       debug: 4.4.3
@@ -5567,6 +5733,8 @@ snapshots:
       - supports-color
 
   '@automerge/automerge@3.2.3': {}
+
+  '@automerge/automerge@3.2.6': {}
 
   '@babel/code-frame@7.29.0':
     dependencies:
@@ -5964,7 +6132,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@dxos/app-framework@0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)':
+  '@dxos/app-framework@0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)':
     dependencies:
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/debug': 0.8.4-main.fcfe5033a5
@@ -5987,7 +6155,7 @@ snapshots:
       effect: 3.20.0
       react: 19.2.5
       react-dom: 19.2.5(react@19.2.5)
-      vite-plugin-css-injected-by-js: 5.0.1(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3))
+      vite-plugin-css-injected-by-js: 5.0.1(vite@8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3))
     transitivePeerDependencies:
       - '@effect/experimental'
       - '@effect/platform-browser'
@@ -6051,11 +6219,11 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@dxos/app-toolkit@0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)':
+  '@dxos/app-toolkit@0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)':
     dependencies:
       '@atlaskit/pragmatic-drag-and-drop-hitbox': 1.1.0
       '@dxos/ai': 0.8.4-main.fcfe5033a5(887601271a37c0d0b6f6ae3b4c4686d7)
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
       '@dxos/app-graph': 0.8.4-main.fcfe5033a5(4bcee744fcd5219815d7a183adbe00d3)
       '@dxos/assistant': 0.8.4-main.fcfe5033a5(4a2acb15dd136e0db7e0847a6475ddc9)
       '@dxos/blueprints': 0.8.4-main.fcfe5033a5(7a7bfb0aa9dcd284d0b8c760de0512e7)
@@ -6115,10 +6283,10 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/assistant-toolkit@0.8.4-main.fcfe5033a5(32ad3a5b0c44e1be06571de2030679a5)':
+  '@dxos/assistant-toolkit@0.8.4-main.fcfe5033a5(7e426b4179dc35f9396aaf1ce82b26fb)':
     dependencies:
       '@dxos/ai': 0.8.4-main.fcfe5033a5(887601271a37c0d0b6f6ae3b4c4686d7)
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
       '@dxos/assistant': 0.8.4-main.fcfe5033a5(4a2acb15dd136e0db7e0847a6475ddc9)
       '@dxos/blueprints': 0.8.4-main.fcfe5033a5(7a7bfb0aa9dcd284d0b8c760de0512e7)
       '@dxos/client-protocol': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
@@ -6136,7 +6304,7 @@ snapshots:
       '@dxos/keys': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/log': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-markdown': 0.8.4-main.fcfe5033a5(775b81f27d6a942f24df8c0546a0e689)
+      '@dxos/plugin-markdown': 0.8.4-main.fcfe5033a5(5278f187f574db9c1e947fc41de2db54)
       '@dxos/react-ui': 0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0)
       '@dxos/react-ui-mosaic': 0.8.4-main.fcfe5033a5(e960268b50b9c898468e24d961bbd2fc)
       '@dxos/react-ui-syntax-highlighter': 0.8.4-main.fcfe5033a5(@dxos/react-ui@0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0))(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -6309,9 +6477,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@dxos/cli-util@0.8.4-main.fcfe5033a5(943ca684f6935c85840a299bebcf2fc8)':
+  '@dxos/cli-util@0.8.4-main.fcfe5033a5(1cd2607ae6bba2e72b6a6de403512d34)':
     dependencies:
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/client': 0.8.4-main.fcfe5033a5(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/debug': 0.8.4-main.fcfe5033a5
       '@dxos/echo': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(react@19.2.5)(scheduler@0.27.0)
@@ -8423,14 +8591,14 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@dxos/plugin-attention@0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)':
+  '@dxos/plugin-attention@0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)':
     dependencies:
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/echo': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/keyboard': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
+      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
       '@dxos/react-ui-attention': 0.8.4-main.fcfe5033a5(29efc8de899ef6c69acb7bb7d234d600)
       '@dxos/util': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       effect: 3.20.0
@@ -8473,16 +8641,16 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-automation@0.8.4-main.fcfe5033a5(4516bf3e9aa99ef7be0b7e21375b07c7)':
+  '@dxos/plugin-automation@0.8.4-main.fcfe5033a5(fcb6d3a3d68fbe541897e2321625b86b)':
     dependencies:
       '@dxos/ai': 0.8.4-main.fcfe5033a5(887601271a37c0d0b6f6ae3b4c4686d7)
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/assistant': 0.8.4-main.fcfe5033a5(4a2acb15dd136e0db7e0847a6475ddc9)
-      '@dxos/assistant-toolkit': 0.8.4-main.fcfe5033a5(32ad3a5b0c44e1be06571de2030679a5)
+      '@dxos/assistant-toolkit': 0.8.4-main.fcfe5033a5(7e426b4179dc35f9396aaf1ce82b26fb)
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/blueprints': 0.8.4-main.fcfe5033a5(7a7bfb0aa9dcd284d0b8c760de0512e7)
-      '@dxos/cli-util': 0.8.4-main.fcfe5033a5(943ca684f6935c85840a299bebcf2fc8)
+      '@dxos/cli-util': 0.8.4-main.fcfe5033a5(1cd2607ae6bba2e72b6a6de403512d34)
       '@dxos/client': 0.8.4-main.fcfe5033a5(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/conductor': 0.8.4-main.fcfe5033a5(96cbb68115e93321b8f39f4c3f9a404f)
       '@dxos/context': 0.8.4-main.fcfe5033a5(effect@3.20.0)
@@ -8496,10 +8664,10 @@ snapshots:
       '@dxos/keys': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/log': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)
-      '@dxos/plugin-deck': 0.8.4-main.fcfe5033a5(775b81f27d6a942f24df8c0546a0e689)
-      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-space': 0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)
+      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)
+      '@dxos/plugin-deck': 0.8.4-main.fcfe5033a5(5278f187f574db9c1e947fc41de2db54)
+      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-space': 0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)
       '@dxos/random': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/react-client': 0.8.4-main.fcfe5033a5(bdae3ac4d759df8c2ba6a41bac8d50e1)
       '@dxos/react-ui': 0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0)
@@ -8561,12 +8729,12 @@ snapshots:
       - ws
       - zod
 
-  '@dxos/plugin-client@0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)':
+  '@dxos/plugin-client@0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)':
     dependencies:
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
-      '@dxos/cli-util': 0.8.4-main.fcfe5033a5(943ca684f6935c85840a299bebcf2fc8)
+      '@dxos/cli-util': 0.8.4-main.fcfe5033a5(1cd2607ae6bba2e72b6a6de403512d34)
       '@dxos/client': 0.8.4-main.fcfe5033a5(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/client-protocol': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/client-services': 0.8.4-main.fcfe5033a5(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(react@19.2.5)(scheduler@0.27.0)
@@ -8577,8 +8745,8 @@ snapshots:
       '@dxos/invariant': 0.8.4-main.fcfe5033a5
       '@dxos/log': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-observability': 0.8.4-main.fcfe5033a5(0fa49ec74787fc7d10e0638bcc224cbd)
+      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-observability': 0.8.4-main.fcfe5033a5(ef5f2f7717e773a15d7ff55648b7bf20)
       '@dxos/protocols': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/react-client': 0.8.4-main.fcfe5033a5(bdae3ac4d759df8c2ba6a41bac8d50e1)
       '@dxos/react-ui': 0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0)
@@ -8636,12 +8804,12 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-deck@0.8.4-main.fcfe5033a5(775b81f27d6a942f24df8c0546a0e689)':
+  '@dxos/plugin-deck@0.8.4-main.fcfe5033a5(5278f187f574db9c1e947fc41de2db54)':
     dependencies:
       '@dxos/ai': 0.8.4-main.fcfe5033a5(887601271a37c0d0b6f6ae3b4c4686d7)
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
       '@dxos/app-graph': 0.8.4-main.fcfe5033a5(4bcee744fcd5219815d7a183adbe00d3)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/assistant': 0.8.4-main.fcfe5033a5(4a2acb15dd136e0db7e0847a6475ddc9)
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/blueprints': 0.8.4-main.fcfe5033a5(7a7bfb0aa9dcd284d0b8c760de0512e7)
@@ -8654,11 +8822,11 @@ snapshots:
       '@dxos/keyboard': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/log': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-attention': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)
-      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-observability': 0.8.4-main.fcfe5033a5(0fa49ec74787fc7d10e0638bcc224cbd)
-      '@dxos/plugin-theme': 0.8.4-main.fcfe5033a5(013f9c465c8f90ac94c59957b49ff098)
+      '@dxos/plugin-attention': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)
+      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-observability': 0.8.4-main.fcfe5033a5(ef5f2f7717e773a15d7ff55648b7bf20)
+      '@dxos/plugin-theme': 0.8.4-main.fcfe5033a5(bcce43261c2307493cd929435fbbecdb)
       '@dxos/react-client': 0.8.4-main.fcfe5033a5(bdae3ac4d759df8c2ba6a41bac8d50e1)
       '@dxos/react-error-boundary': 0.8.4-main.fcfe5033a5(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@dxos/react-ui': 0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0)
@@ -8722,11 +8890,11 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-graph@0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)':
+  '@dxos/plugin-graph@0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)':
     dependencies:
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
       '@dxos/app-graph': 0.8.4-main.fcfe5033a5(4bcee744fcd5219815d7a183adbe00d3)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/debug': 0.8.4-main.fcfe5033a5
       '@dxos/effect': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
@@ -8772,15 +8940,15 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-markdown@0.8.4-main.fcfe5033a5(775b81f27d6a942f24df8c0546a0e689)':
+  '@dxos/plugin-markdown@0.8.4-main.fcfe5033a5(5278f187f574db9c1e947fc41de2db54)':
     dependencies:
       '@automerge/automerge': 3.2.3
       '@codemirror/search': 6.7.0
       '@codemirror/state': 6.6.0
       '@codemirror/view': 6.41.1
       '@dxos/ai': 0.8.4-main.fcfe5033a5(887601271a37c0d0b6f6ae3b4c4686d7)
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/assistant': 0.8.4-main.fcfe5033a5(4a2acb15dd136e0db7e0847a6475ddc9)
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/blueprints': 0.8.4-main.fcfe5033a5(7a7bfb0aa9dcd284d0b8c760de0512e7)
@@ -8795,13 +8963,13 @@ snapshots:
       '@dxos/lit-ui': 0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@dxos/log': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-attention': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)
-      '@dxos/plugin-deck': 0.8.4-main.fcfe5033a5(775b81f27d6a942f24df8c0546a0e689)
-      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-preview': 0.8.4-main.fcfe5033a5(b2d5f604988991da7305b80267495b41)
-      '@dxos/plugin-space': 0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)
-      '@dxos/plugin-theme': 0.8.4-main.fcfe5033a5(013f9c465c8f90ac94c59957b49ff098)
+      '@dxos/plugin-attention': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)
+      '@dxos/plugin-deck': 0.8.4-main.fcfe5033a5(5278f187f574db9c1e947fc41de2db54)
+      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-preview': 0.8.4-main.fcfe5033a5(65a979268f88501e717d9d1823f81beb)
+      '@dxos/plugin-space': 0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)
+      '@dxos/plugin-theme': 0.8.4-main.fcfe5033a5(bcce43261c2307493cd929435fbbecdb)
       '@dxos/react-client': 0.8.4-main.fcfe5033a5(bdae3ac4d759df8c2ba6a41bac8d50e1)
       '@dxos/react-hooks': 0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@dxos/react-ui': 0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0)
@@ -8866,10 +9034,10 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-observability@0.8.4-main.fcfe5033a5(0fa49ec74787fc7d10e0638bcc224cbd)':
+  '@dxos/plugin-observability@0.8.4-main.fcfe5033a5(ef5f2f7717e773a15d7ff55648b7bf20)':
     dependencies:
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/context': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/echo': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(react@19.2.5)(scheduler@0.27.0)
@@ -8878,7 +9046,7 @@ snapshots:
       '@dxos/log': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/observability': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
+      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
       '@dxos/protocols': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/react-client': 0.8.4-main.fcfe5033a5(bdae3ac4d759df8c2ba6a41bac8d50e1)
       '@dxos/react-hooks': 0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -8932,11 +9100,11 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-preview@0.8.4-main.fcfe5033a5(b2d5f604988991da7305b80267495b41)':
+  '@dxos/plugin-preview@0.8.4-main.fcfe5033a5(65a979268f88501e717d9d1823f81beb)':
     dependencies:
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
       '@dxos/app-graph': 0.8.4-main.fcfe5033a5(4bcee744fcd5219815d7a183adbe00d3)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/client': 0.8.4-main.fcfe5033a5(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/echo': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(react@19.2.5)(scheduler@0.27.0)
@@ -8945,9 +9113,9 @@ snapshots:
       '@dxos/lit-ui': 0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@dxos/log': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-attention': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)
-      '@dxos/plugin-deck': 0.8.4-main.fcfe5033a5(775b81f27d6a942f24df8c0546a0e689)
+      '@dxos/plugin-attention': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)
+      '@dxos/plugin-deck': 0.8.4-main.fcfe5033a5(5278f187f574db9c1e947fc41de2db54)
       '@dxos/react-client': 0.8.4-main.fcfe5033a5(bdae3ac4d759df8c2ba6a41bac8d50e1)
       '@dxos/react-ui': 0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0)
       '@dxos/react-ui-editor': 0.8.4-main.fcfe5033a5(2abadd85a537b67c1438e4e9070912a2)
@@ -9005,11 +9173,11 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-settings@0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)':
+  '@dxos/plugin-settings@0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)':
     dependencies:
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
       '@dxos/app-graph': 0.8.4-main.fcfe5033a5(4bcee744fcd5219815d7a183adbe00d3)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/util': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       effect: 3.20.0
@@ -9052,15 +9220,15 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-space@0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)':
+  '@dxos/plugin-space@0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)':
     dependencies:
       '@automerge/automerge': 3.2.3
       '@dxos/ai': 0.8.4-main.fcfe5033a5(887601271a37c0d0b6f6ae3b4c4686d7)
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/blueprints': 0.8.4-main.fcfe5033a5(7a7bfb0aa9dcd284d0b8c760de0512e7)
-      '@dxos/cli-util': 0.8.4-main.fcfe5033a5(943ca684f6935c85840a299bebcf2fc8)
+      '@dxos/cli-util': 0.8.4-main.fcfe5033a5(1cd2607ae6bba2e72b6a6de403512d34)
       '@dxos/client': 0.8.4-main.fcfe5033a5(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/client-protocol': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/context': 0.8.4-main.fcfe5033a5(effect@3.20.0)
@@ -9076,13 +9244,13 @@ snapshots:
       '@dxos/log': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/migrations': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-attention': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(9249ffa469798aea81a652b6e3780a91)
-      '@dxos/plugin-deck': 0.8.4-main.fcfe5033a5(775b81f27d6a942f24df8c0546a0e689)
-      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-observability': 0.8.4-main.fcfe5033a5(0fa49ec74787fc7d10e0638bcc224cbd)
-      '@dxos/plugin-settings': 0.8.4-main.fcfe5033a5(4fe385471be77e1daa60f51343dc40aa)
-      '@dxos/plugin-status-bar': 0.8.4-main.fcfe5033a5(0fa49ec74787fc7d10e0638bcc224cbd)
+      '@dxos/plugin-attention': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-client': 0.8.4-main.fcfe5033a5(81ea96f28c3816ab02e2664498b08b14)
+      '@dxos/plugin-deck': 0.8.4-main.fcfe5033a5(5278f187f574db9c1e947fc41de2db54)
+      '@dxos/plugin-graph': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-observability': 0.8.4-main.fcfe5033a5(ef5f2f7717e773a15d7ff55648b7bf20)
+      '@dxos/plugin-settings': 0.8.4-main.fcfe5033a5(b2455a30d126e67ba43fa358964797f7)
+      '@dxos/plugin-status-bar': 0.8.4-main.fcfe5033a5(ef5f2f7717e773a15d7ff55648b7bf20)
       '@dxos/protocols': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/react-client': 0.8.4-main.fcfe5033a5(bdae3ac4d759df8c2ba6a41bac8d50e1)
       '@dxos/react-ui': 0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0)
@@ -9157,14 +9325,14 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-status-bar@0.8.4-main.fcfe5033a5(0fa49ec74787fc7d10e0638bcc224cbd)':
+  '@dxos/plugin-status-bar@0.8.4-main.fcfe5033a5(ef5f2f7717e773a15d7ff55648b7bf20)':
     dependencies:
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/async': 0.8.4-main.fcfe5033a5(effect@3.20.0)
       '@dxos/echo': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
-      '@dxos/plugin-observability': 0.8.4-main.fcfe5033a5(0fa49ec74787fc7d10e0638bcc224cbd)
+      '@dxos/plugin-observability': 0.8.4-main.fcfe5033a5(ef5f2f7717e773a15d7ff55648b7bf20)
       '@dxos/react-client': 0.8.4-main.fcfe5033a5(bdae3ac4d759df8c2ba6a41bac8d50e1)
       '@dxos/react-ui': 0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0)
       '@dxos/react-ui-form': 0.8.4-main.fcfe5033a5(88ecf7dabbde0b5da33aeb1db8c59dc4)
@@ -9217,10 +9385,10 @@ snapshots:
       - vite
       - zod
 
-  '@dxos/plugin-theme@0.8.4-main.fcfe5033a5(013f9c465c8f90ac94c59957b49ff098)':
+  '@dxos/plugin-theme@0.8.4-main.fcfe5033a5(bcce43261c2307493cd929435fbbecdb)':
     dependencies:
-      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(c283b08a0f63accef9fc1f08f37af86b)
-      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(b8cf762d5fcdf452377a22ad62352915)
+      '@dxos/app-framework': 0.8.4-main.fcfe5033a5(7eede7e32b14eca75579ba5311766214)
+      '@dxos/app-toolkit': 0.8.4-main.fcfe5033a5(4f1d5be0badc414a23d59ff889b50864)
       '@dxos/echo': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/operation': 0.8.4-main.fcfe5033a5(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform-browser@0.74.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/printer-ansi@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/printer@0.47.0(@effect/typeclass@0.38.0(effect@3.20.0))(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@opentelemetry/resources@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-logs@0.208.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-metrics@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-node@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-web@2.7.0(@opentelemetry/api@1.9.1))(@opentelemetry/semantic-conventions@1.40.0)(effect@3.20.0)(react@19.2.5)(scheduler@0.27.0)
       '@dxos/react-ui': 0.8.4-main.fcfe5033a5(@dxos/ui-theme@0.8.4-main.fcfe5033a5(@types/react@19.2.14)(effect@3.20.0)(react@19.2.5))(@effect/experimental@0.58.0(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@effect/platform@0.94.4(effect@3.20.0))(@effect/rpc@0.73.2(@effect/platform@0.94.4(effect@3.20.0))(effect@3.20.0))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(effect@3.20.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(scheduler@0.27.0)
@@ -11369,79 +11537,157 @@ snapshots:
   '@esbuild/aix-ppc64@0.25.11':
     optional: true
 
+  '@esbuild/aix-ppc64@0.28.0':
+    optional: true
+
   '@esbuild/android-arm64@0.25.11':
+    optional: true
+
+  '@esbuild/android-arm64@0.28.0':
     optional: true
 
   '@esbuild/android-arm@0.25.11':
     optional: true
 
+  '@esbuild/android-arm@0.28.0':
+    optional: true
+
   '@esbuild/android-x64@0.25.11':
+    optional: true
+
+  '@esbuild/android-x64@0.28.0':
     optional: true
 
   '@esbuild/darwin-arm64@0.25.11':
     optional: true
 
+  '@esbuild/darwin-arm64@0.28.0':
+    optional: true
+
   '@esbuild/darwin-x64@0.25.11':
+    optional: true
+
+  '@esbuild/darwin-x64@0.28.0':
     optional: true
 
   '@esbuild/freebsd-arm64@0.25.11':
     optional: true
 
+  '@esbuild/freebsd-arm64@0.28.0':
+    optional: true
+
   '@esbuild/freebsd-x64@0.25.11':
+    optional: true
+
+  '@esbuild/freebsd-x64@0.28.0':
     optional: true
 
   '@esbuild/linux-arm64@0.25.11':
     optional: true
 
+  '@esbuild/linux-arm64@0.28.0':
+    optional: true
+
   '@esbuild/linux-arm@0.25.11':
+    optional: true
+
+  '@esbuild/linux-arm@0.28.0':
     optional: true
 
   '@esbuild/linux-ia32@0.25.11':
     optional: true
 
+  '@esbuild/linux-ia32@0.28.0':
+    optional: true
+
   '@esbuild/linux-loong64@0.25.11':
+    optional: true
+
+  '@esbuild/linux-loong64@0.28.0':
     optional: true
 
   '@esbuild/linux-mips64el@0.25.11':
     optional: true
 
+  '@esbuild/linux-mips64el@0.28.0':
+    optional: true
+
   '@esbuild/linux-ppc64@0.25.11':
+    optional: true
+
+  '@esbuild/linux-ppc64@0.28.0':
     optional: true
 
   '@esbuild/linux-riscv64@0.25.11':
     optional: true
 
+  '@esbuild/linux-riscv64@0.28.0':
+    optional: true
+
   '@esbuild/linux-s390x@0.25.11':
+    optional: true
+
+  '@esbuild/linux-s390x@0.28.0':
     optional: true
 
   '@esbuild/linux-x64@0.25.11':
     optional: true
 
+  '@esbuild/linux-x64@0.28.0':
+    optional: true
+
   '@esbuild/netbsd-arm64@0.25.11':
+    optional: true
+
+  '@esbuild/netbsd-arm64@0.28.0':
     optional: true
 
   '@esbuild/netbsd-x64@0.25.11':
     optional: true
 
+  '@esbuild/netbsd-x64@0.28.0':
+    optional: true
+
   '@esbuild/openbsd-arm64@0.25.11':
+    optional: true
+
+  '@esbuild/openbsd-arm64@0.28.0':
     optional: true
 
   '@esbuild/openbsd-x64@0.25.11':
     optional: true
 
+  '@esbuild/openbsd-x64@0.28.0':
+    optional: true
+
   '@esbuild/openharmony-arm64@0.25.11':
+    optional: true
+
+  '@esbuild/openharmony-arm64@0.28.0':
     optional: true
 
   '@esbuild/sunos-x64@0.25.11':
     optional: true
 
+  '@esbuild/sunos-x64@0.28.0':
+    optional: true
+
   '@esbuild/win32-arm64@0.25.11':
+    optional: true
+
+  '@esbuild/win32-arm64@0.28.0':
     optional: true
 
   '@esbuild/win32-ia32@0.25.11':
     optional: true
 
+  '@esbuild/win32-ia32@0.28.0':
+    optional: true
+
   '@esbuild/win32-x64@0.25.11':
+    optional: true
+
+  '@esbuild/win32-x64@0.28.0':
     optional: true
 
   '@essentials/memoize-one@1.1.0': {}
@@ -13105,10 +13351,10 @@ snapshots:
       react: 19.2.5
       react-dom: 19.2.5(react@19.2.5)
 
-  '@vitejs/plugin-react@6.0.1(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3))':
+  '@vitejs/plugin-react@6.0.1(vite@8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-rc.7
-      vite: 8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)
+      vite: 8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)
 
   '@xenova/transformers@2.17.2':
     dependencies:
@@ -13721,6 +13967,36 @@ snapshots:
       '@esbuild/win32-arm64': 0.25.11
       '@esbuild/win32-ia32': 0.25.11
       '@esbuild/win32-x64': 0.25.11
+
+  esbuild@0.28.0:
+    optionalDependencies:
+      '@esbuild/aix-ppc64': 0.28.0
+      '@esbuild/android-arm': 0.28.0
+      '@esbuild/android-arm64': 0.28.0
+      '@esbuild/android-x64': 0.28.0
+      '@esbuild/darwin-arm64': 0.28.0
+      '@esbuild/darwin-x64': 0.28.0
+      '@esbuild/freebsd-arm64': 0.28.0
+      '@esbuild/freebsd-x64': 0.28.0
+      '@esbuild/linux-arm': 0.28.0
+      '@esbuild/linux-arm64': 0.28.0
+      '@esbuild/linux-ia32': 0.28.0
+      '@esbuild/linux-loong64': 0.28.0
+      '@esbuild/linux-mips64el': 0.28.0
+      '@esbuild/linux-ppc64': 0.28.0
+      '@esbuild/linux-riscv64': 0.28.0
+      '@esbuild/linux-s390x': 0.28.0
+      '@esbuild/linux-x64': 0.28.0
+      '@esbuild/netbsd-arm64': 0.28.0
+      '@esbuild/netbsd-x64': 0.28.0
+      '@esbuild/openbsd-arm64': 0.28.0
+      '@esbuild/openbsd-x64': 0.28.0
+      '@esbuild/openharmony-arm64': 0.28.0
+      '@esbuild/sunos-x64': 0.28.0
+      '@esbuild/win32-arm64': 0.28.0
+      '@esbuild/win32-ia32': 0.28.0
+      '@esbuild/win32-x64': 0.28.0
+    optional: true
 
   escalade@3.2.0: {}
 
@@ -15579,15 +15855,15 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-css-injected-by-js@5.0.1(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)):
+  vite-plugin-css-injected-by-js@5.0.1(vite@8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)):
     dependencies:
-      vite: 8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)
+      vite: 8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)
 
-  vite-plugin-wasm@3.6.0(vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)):
+  vite-plugin-wasm@3.6.0(vite@8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)):
     dependencies:
-      vite: 8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)
+      vite: 8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3)
 
-  vite@8.0.10(@types/node@25.6.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3):
+  vite@8.0.10(@types/node@25.6.0)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.99.0)(yaml@2.8.3):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
@@ -15596,6 +15872,7 @@ snapshots:
       tinyglobby: 0.2.16
     optionalDependencies:
       '@types/node': 25.6.0
+      esbuild: 0.28.0
       fsevents: 2.3.3
       jiti: 2.6.1
       sass: 1.99.0

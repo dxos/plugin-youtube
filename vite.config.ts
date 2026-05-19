@@ -8,8 +8,20 @@ import wasm from 'vite-plugin-wasm';
 
 import { composerPlugin } from '@dxos/app-framework/vite-plugin';
 
+import { version } from './package.json' with { type: 'json' };
 import { meta } from './src/meta';
 
 export default defineConfig({
-  plugins: [wasm(), ...composerPlugin({ entry: 'src/plugin.tsx', meta }), react()],
+  // Prepend `source` so `#xxx` imports route to `src/*.ts` — the dist paths
+  // in `package.json#imports` only kick in if this plugin is republished as
+  // a library. Vite's defaults are restored because the option replaces
+  // rather than appends.
+  resolve: {
+    conditions: ['source', 'module', 'browser', 'development', 'production', 'import'],
+  },
+  plugins: [
+    ...composerPlugin({ entry: 'src/YouTubePlugin.tsx', meta: { ...meta, version } }),
+    react(),
+    wasm(),
+  ],
 });

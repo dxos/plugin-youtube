@@ -18,6 +18,8 @@
       "#containers": ["./src/containers/index.ts"],
       "#meta": ["./src/meta.ts"],
       "#operations": ["./src/operations/index.ts"],
+      "#plugin": ["./src/YouTubePlugin.tsx"],
+      "#translations": ["./src/translations.ts"],
       "#types": ["./src/types/index.ts"]
     }
   },

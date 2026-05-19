@@ -17,9 +17,8 @@ import { type CreateObject } from '@dxos/plugin-space/types';
 import { YouTubeBlueprint } from '#blueprints';
 import { AppGraphBuilder, BlueprintDefinition, Migrations, ReactSurface } from '#capabilities';
 import { meta } from '#meta';
+import { translations } from '#translations';
 import { Channel, Video } from '#types';
-
-import { translations } from './translations';
 
 export const YouTubePlugin = Plugin.define(meta).pipe(
   AppPlugin.addAppGraphModule({
@@ -70,3 +69,5 @@ export const YouTubePlugin = Plugin.define(meta).pipe(
   }),
   Plugin.make,
 );
+
+export default YouTubePlugin;

@@ -5,6 +5,7 @@
 import * as Schema from 'effect/Schema';
 
 import { Annotation, Obj, Type } from '@dxos/echo';
+import { LabelAnnotation } from '@dxos/echo/internal';
 
 /**
  * Transcript segment from a YouTube video.
@@ -83,6 +84,7 @@ export const YouTubeVideo = Schema.Struct({
     icon: 'ph--play--regular',
     hue: 'red',
   }),
+  LabelAnnotation.set(['title']),
 );
 
 export interface YouTubeVideo extends Schema.Schema.Type<typeof YouTubeVideo> {}

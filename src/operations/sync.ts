@@ -11,9 +11,9 @@ import * as Option from 'effect/Option';
 import * as Predicate from 'effect/Predicate';
 import * as Stream from 'effect/Stream';
 
+import { Operation } from '@dxos/compute';
 import { Database, Feed, Filter, Obj, Ref } from '@dxos/echo';
 import { log } from '@dxos/log';
-import { Operation } from '@dxos/operation';
 
 import { Channel, Video } from '../types';
 import { YouTube } from './apis';
@@ -39,7 +39,7 @@ const handler: Operation.WithHandler<typeof Sync> = Sync.pipe(
       const { channelId, channelTitle, uploadsPlaylistId } = yield* getUploadsPlaylistId(channelInfo);
       log('found channel', { channelId, channelTitle, uploadsPlaylistId });
 
-      Obj.change(channel as Channel.YouTubeChannel, (channelObj) => {
+      Obj.update(channel as Channel.YouTubeChannel, (channelObj) => {
         channelObj.channelId = channelId;
         if (!channelObj.name) {
           channelObj.name = channelTitle;
@@ -60,7 +60,7 @@ const handler: Operation.WithHandler<typeof Sync> = Sync.pipe(
         includeTranscripts,
       );
 
-      Obj.change(channel as Channel.YouTubeChannel, (channelObj) => {
+      Obj.update(channel as Channel.YouTubeChannel, (channelObj) => {
         channelObj.lastSyncedAt = new Date().toISOString();
       });
 

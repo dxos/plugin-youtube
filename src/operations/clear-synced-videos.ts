@@ -4,9 +4,9 @@
 
 import * as Effect from 'effect/Effect';
 
+import { Operation } from '@dxos/compute';
 import { Database, Feed, Filter, Obj, Ref } from '@dxos/echo';
 import { log } from '@dxos/log';
-import { Operation } from '@dxos/operation';
 
 import { Channel, Video } from '../types';
 import { ClearSyncedVideos } from './definitions';
@@ -25,7 +25,7 @@ const handler: Operation.WithHandler<typeof ClearSyncedVideos> = ClearSyncedVide
       yield* Database.add(newFeed);
       Obj.setParent(newFeed, channel);
 
-      Obj.change(channel, (channel) => {
+      Obj.update(channel, (channel) => {
         channel.feed = Ref.make(newFeed);
         delete channel.lastSyncedAt;
       });

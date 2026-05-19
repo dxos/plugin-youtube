@@ -2,20 +2,12 @@
 // Copyright 2024 DXOS.org
 //
 
-import * as Effect from 'effect/Effect';
-import * as Option from 'effect/Option';
-
 import { ActivationEvent, Plugin } from '@dxos/app-framework';
 import { AppActivationEvents, AppPlugin } from '@dxos/app-toolkit';
-import { Annotation } from '@dxos/echo';
-import { Operation } from '@dxos/operation';
-import { AttentionEvents } from '@dxos/plugin-attention/types';
-import { ClientEvents } from '@dxos/plugin-client/types';
-import { SpaceOperation } from '@dxos/plugin-space/operations';
-import { type CreateObject } from '@dxos/plugin-space/types';
+import { AttentionEvents } from '@dxos/plugin-attention';
+import { ClientEvents } from '@dxos/plugin-client';
 
-import { YouTubeBlueprint } from '#blueprints';
-import { AppGraphBuilder, BlueprintDefinition, Migrations, ReactSurface } from '#capabilities';
+import { AppGraphBuilder, BlueprintDefinition, CreateObject, Migrations, ReactSurface } from '#capabilities';
 import { meta } from '#meta';
 import { translations } from '#translations';
 import { Channel, Video } from '#types';
@@ -26,38 +18,7 @@ export const YouTubePlugin = Plugin.define(meta).pipe(
     activate: AppGraphBuilder,
   }),
   AppPlugin.addBlueprintDefinitionModule({ activate: BlueprintDefinition }),
-  AppPlugin.addMetadataModule({
-    metadata: [
-      {
-        id: Channel.YouTubeChannel.typename,
-        metadata: {
-          label: (object: Channel.YouTubeChannel) => object.name ?? object.channelUrl ?? object.channelId ?? 'YouTube',
-          icon: Annotation.IconAnnotation.get(Channel.YouTubeChannel).pipe(Option.getOrThrow).icon,
-          iconHue: Annotation.IconAnnotation.get(Channel.YouTubeChannel).pipe(Option.getOrThrow).hue ?? 'white',
-          blueprints: [YouTubeBlueprint.key],
-          inputSchema: Channel.CreateYouTubeChannelSchema,
-          createObject: ((props, options) =>
-            Effect.gen(function* () {
-              const object = Channel.make(props);
-              return yield* Operation.invoke(SpaceOperation.AddObject, {
-                object,
-                target: options.target,
-                hidden: true,
-                targetNodeId: options.targetNodeId,
-              });
-            })) satisfies CreateObject,
-        },
-      },
-      {
-        id: Video.YouTubeVideo.typename,
-        metadata: {
-          label: (object: Video.YouTubeVideo) => object.title,
-          icon: Annotation.IconAnnotation.get(Video.YouTubeVideo).pipe(Option.getOrThrow).icon,
-          iconHue: Annotation.IconAnnotation.get(Video.YouTubeVideo).pipe(Option.getOrThrow).hue ?? 'white',
-        },
-      },
-    ],
-  }),
+  AppPlugin.addCreateObjectModule({ activate: CreateObject }),
   AppPlugin.addSchemaModule({
     schema: [Channel.YouTubeChannel, Video.YouTubeVideo],
   }),

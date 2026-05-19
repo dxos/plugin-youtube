@@ -5,7 +5,7 @@
 import * as Schema from 'effect/Schema';
 
 import { Annotation, Feed, Obj, Ref, Type } from '@dxos/echo';
-import { FormInputAnnotation } from '@dxos/echo/internal';
+import { FormInputAnnotation, LabelAnnotation } from '@dxos/echo/internal';
 import { FeedAnnotation } from '@dxos/schema';
 import { AccessToken } from '@dxos/types';
 
@@ -58,6 +58,7 @@ export const YouTubeChannel = Schema.Struct({
     icon: 'ph--youtube-logo--regular',
     hue: 'red',
   }),
+  LabelAnnotation.set(['name', 'channelUrl', 'channelId']),
   FeedAnnotation.set(true),
 );
 

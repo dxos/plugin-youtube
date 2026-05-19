@@ -2,6 +2,10 @@
 // Copyright 2026 DXOS.org
 //
 
-// The community registry loader expects a default export: either a Plugin or a
-// zero-arg factory. `YouTubePlugin` is already a factory via `Plugin.make`.
-export { default, YouTubePlugin } from '#plugin';
+import { Plugin } from '@dxos/app-framework';
+
+import { meta } from './meta';
+
+export const YouTubePlugin = Plugin.lazy(meta, () => import('#plugin'));
+
+export { YouTubeHandlers } from './operations';
